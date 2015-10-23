@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="src/lib/jgoodies-looks-2.4.1.jar"/>
+	<classpathentry kind="lib" path="src/lib/jh.jar"/>
+	<classpathentry kind="lib" path="src/lib/jhall.jar"/>
+	<classpathentry kind="lib" path="src/lib/jhbasic.jar"/>
+	<classpathentry kind="lib" path="src/lib/jna-3.2.7.jar"/>
+	<classpathentry kind="lib" path="src/lib/jsch-0.1.49.jar"/>
+	<classpathentry kind="lib" path="src/lib/jsearch.jar"/>
+	<classpathentry kind="lib" path="src/lib/JTattoo.jar"/>
+	<classpathentry kind="lib" path="src/lib/mysql-connector-java-5.0.8-bin.jar"/>
+	<classpathentry kind="lib" path="src/lib/nimrodlf.jar"/>
+	<classpathentry kind="lib" path="src/lib/ojdbc6.jar"/>
+	<classpathentry kind="lib" path="src/lib/src.jar"/>
+	<classpathentry kind="lib" path="src/lib/synthetica.jar"/>
+	<classpathentry kind="lib" path="src/lib/tinylaf.jar"/>
+	<classpathentry kind="lib" path="src/lib/toniclf_slim.jar"/>
+	<classpathentry kind="lib" path="src/lib/commons-net-3.3.jar"/>
+	<classpathentry kind="lib" path="src/lib/swingx-1.6.jar"/>
+	<classpathentry kind="output" path="bin/lib"/>
+</classpath>

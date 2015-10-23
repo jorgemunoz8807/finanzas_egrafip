@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='ISO-8859-1'  ?>
+<!DOCTYPE index
+  PUBLIC "-//Sun Microsystems Inc.//DTD JavaHelp Index Version 1.0//EN"
+         "http://java.sun.com/products/javahelp/index_1_0.dtd">
+<index version="1.0">
+	<indexitem text="Introducción" target="introduction" />
+	<indexitem text="Acerca de Finanzas al Día" target="about2" />
+
+	<indexitem text="Funcionamiento" target="function" />
+	<indexitem text="Panel de Manuales y Normas" target="manualP" />
+	<indexitem text="Panel de Modificaciones" target="modifP" />
+
+	<indexitem text="Actualización Compacta" target="compact" />
+	<indexitem text="Actualización Completa" target="complete" />
+	<indexitem text="Generar Licencia" target="lic" />
+	<indexitem text="Configuración de la Base de Datos" target="configDB" />
+</index>

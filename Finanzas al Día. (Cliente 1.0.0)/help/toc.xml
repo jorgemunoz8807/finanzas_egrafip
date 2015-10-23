@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<toc version="1.0"> 
+<!--  categoryclosedimage="FolderClosed" categoryopenimage="FolderOpened"  
+topicimage="ItemIco"-->
+
+        <tocitem  text="Finanzas al D&iacute;a" target="about2" image="head">           
+           <tocitem text="Introducción" target="introduction" image="help"/>
+            <tocitem text="Acerca de Finanzas al Día" target="about2" image="help" />
+        </tocitem>
+        
+         <tocitem text="Información General"   target="about2"  image="head">           
+              <tocitem text="Información General" target="function" image="help"/>
+              <tocitem text="Panel de Manuales y Normas" target="manualP" image="help" />
+              <tocitem text="Panel de Modificaciones" target="modifP" image="help" />
+        </tocitem>
+        
+        <tocitem text="Funcionamiento del sistema"   target="about2"  image="head">           
+            <tocitem text="Activación Inicial" target="itialActivate" image="help"/>
+            <tocitem text="Actualizar" target="update" image="help"/>          
+            <tocitem text="Activar" target="lic" image="help"/>     
+            <tocitem text="Configuración" target="config" image="help"/>        
+                            
+        </tocitem>
+               
+</toc>
