@@ -1,5 +1,5 @@
 package citmatel.cu.visual_Pack;
-test
+
 import java.awt.Color;
 import java.awt.Component;
 import java.awt.ComponentOrientation;
