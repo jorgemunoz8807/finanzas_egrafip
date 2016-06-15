@@ -1,5 +1,5 @@
 package citmatel.cu.visual_Pack;
-
+test
 import java.awt.Color;
 import java.awt.Component;
 import java.awt.ComponentOrientation;
@@ -320,7 +320,7 @@ public class Client extends JFrame {
 							JOptionPane
 									.showMessageDialog(
 											null,
-											"La aplicaciÛn no ha cargado los datos necesarios para funcionar correctamente. Realice una actualizaciÛn.",
+											"La aplicaci√≥n no ha cargado los datos necesarios para funcionar correctamente. Realice una actualizaci√≥n.",
 											"Cargando datos",
 											JOptionPane.WARNING_MESSAGE);
 
@@ -347,7 +347,7 @@ public class Client extends JFrame {
 									JOptionPane
 											.showMessageDialog(
 													null,
-													"Este documento no est· disponible.",
+													"Este documento no est√° disponible.",
 													"Mensaje",
 													JOptionPane.WARNING_MESSAGE);
 
@@ -412,7 +412,7 @@ public class Client extends JFrame {
 							JOptionPane
 									.showMessageDialog(
 											null,
-											"La aplicaciÛn no ha cargado los datos necesarios para funcionar correctamente. Realice una actualizaciÛn.",
+											"La aplicaci√≥n no ha cargado los datos necesarios para funcionar correctamente. Realice una actualizaci√≥n.",
 											"Cargando datos",
 											JOptionPane.WARNING_MESSAGE);
 					}
@@ -445,7 +445,7 @@ public class Client extends JFrame {
 								} catch (Exception e2) {
 									JOptionPane
 											.showMessageDialog(null,
-													"Este documento no est· disponible.");
+													"Este documento no est√° disponible.");
 
 									// TODO Auto-generated catch block
 									// e2.printStackTrace();
@@ -596,7 +596,7 @@ public class Client extends JFrame {
 		if (titleFilter == null && summaryFilter == null
 				&& fromDateFilter == null && untilDateFilter == null) {
 			JOptionPane.showMessageDialog(null,
-					"Seleccione un criterio de b˙squeda.", "B˙squeda",
+					"Seleccione un criterio de b√∫squeda.", "B√∫squeda",
 					JOptionPane.WARNING_MESSAGE);
 			return;
 		}
@@ -606,7 +606,7 @@ public class Client extends JFrame {
 					.showMessageDialog(
 							null,
 							convertToMultiline("Uno de los criterios seleccionados no contiene ninguna consulta."),
-							"B˙squeda", JOptionPane.WARNING_MESSAGE);
+							"B√∫squeda", JOptionPane.WARNING_MESSAGE);
 			return;
 		}
 
@@ -615,8 +615,8 @@ public class Client extends JFrame {
 			JOptionPane
 					.showMessageDialog(
 							null,
-							convertToMultiline("Debe insertar una consulta que contenga palabras con m·s de una letra."),
-							"B˙squeda", JOptionPane.WARNING_MESSAGE);
+							convertToMultiline("Debe insertar una consulta que contenga palabras con m√°s de una letra."),
+							"B√∫squeda", JOptionPane.WARNING_MESSAGE);
 			return;
 		}
 
@@ -624,8 +624,8 @@ public class Client extends JFrame {
 			JOptionPane
 					.showMessageDialog(
 							null,
-							"No existen documentos en la aplicaciÛn. Por favor, realice una actualizaciÛn.",
-							"Resultado de la b˙squeda",
+							"No existen documentos en la aplicaci√≥n. Por favor, realice una actualizaci√≥n.",
+							"Resultado de la b√∫squeda",
 							JOptionPane.INFORMATION_MESSAGE);
 
 			return;
@@ -635,8 +635,8 @@ public class Client extends JFrame {
 			JOptionPane
 					.showMessageDialog(
 							null,
-							"Debe insertar un rango de fechas v·lido. \n Ejemplo: Desde 31/12/2013,  Hasta 31/12/2014",
-							"B˙squeda", JOptionPane.WARNING_MESSAGE);
+							"Debe insertar un rango de fechas v√°lido. \n Ejemplo: Desde 31/12/2013,  Hasta 31/12/2014",
+							"B√∫squeda", JOptionPane.WARNING_MESSAGE);
 			return;
 		}
 		// ---------------------------------------------------------------------------------------
@@ -655,13 +655,13 @@ public class Client extends JFrame {
 				JOptionPane
 						.showMessageDialog(
 								null,
-								convertToMultiline("La consulta realizada contiene palabras que son \n demasiado comunes y han sido ignoradas en la b˙squeda."),
-								"B˙squeda sin resultados",
+								convertToMultiline("La consulta realizada contiene palabras que son \n demasiado comunes y han sido ignoradas en la b√∫squeda."),
+								"B√∫squeda sin resultados",
 								JOptionPane.WARNING_MESSAGE);
 				return;
 			}
 			JOptionPane.showMessageDialog(null,
-					"Ha ocurrido un error durante la b˙squeda", "B˙squeda",
+					"Ha ocurrido un error durante la b√∫squeda", "B√∫squeda",
 					JOptionPane.ERROR_MESSAGE);
 			return;
 		}
@@ -671,8 +671,8 @@ public class Client extends JFrame {
 			JOptionPane
 					.showMessageDialog(
 							null,
-							"No se ha encontrado ning˙n documento que cumpla con los criterios especificados.",
-							"Resultado de la b˙squeda",
+							"No se ha encontrado ning√∫n documento que cumpla con los criterios especificados.",
+							"Resultado de la b√∫squeda",
 							JOptionPane.INFORMATION_MESSAGE);
 
 	}
@@ -803,7 +803,7 @@ public class Client extends JFrame {
 		if (titlejCheckBox == null) {
 			titlejCheckBox = new JCheckBox();
 			titlejCheckBox.setBounds(new Rectangle(13, 19, 121, 27));
-			titlejCheckBox.setText("TÌtulo");
+			titlejCheckBox.setText("T√≠tulo");
 			titlejCheckBox.setFont(new Font("Dialog", Font.BOLD, 12));
 			titlejCheckBox.setBackground(Color.white);
 			titlejCheckBox
@@ -990,7 +990,7 @@ public class Client extends JFrame {
 								if (document.getTitle_alias().equals("")) {
 									JOptionPane
 											.showMessageDialog(null,
-													"Este documento no est· disponible");
+													"Este documento no est√° disponible");
 									return;
 								}
 
@@ -1005,7 +1005,7 @@ public class Client extends JFrame {
 									// TODO Auto-generated catch block
 									JOptionPane
 											.showMessageDialog(null,
-													"Este documento no est· disponible");
+													"Este documento no est√° disponible");
 								}
 							}
 
@@ -1103,7 +1103,7 @@ public class Client extends JFrame {
 	}
 
 	public static void ReloadDataInDocTree() {
-		// ¡rbol de documentos
+		// √Årbol de documentos
 		DefaultTreeModel docTreeModel = (DefaultTreeModel) docjTree.getModel();
 		DefaultMutableTreeNode rootDoc = new DefaultMutableTreeNode(
 				"Manuales y Normas");
@@ -1116,7 +1116,7 @@ public class Client extends JFrame {
 	}
 
 	public static void ReloadDataInModTree() {
-		// ¡rbol de modificaciones
+		// √Årbol de modificaciones
 		DefaultTreeModel modTreeModel = (DefaultTreeModel) modjTree.getModel();
 		DefaultMutableTreeNode rootMod = new DefaultMutableTreeNode(
 				"Modificaciones");
@@ -1136,7 +1136,7 @@ public class Client extends JFrame {
 		if (fromJXDatePicker == null) {
 			fromJXDatePicker = new JXDatePicker();
 
-			fromJXDatePicker.setToolTipText("(DÌa/Mes/AÒo)");
+			fromJXDatePicker.setToolTipText("(D√≠a/Mes/A√±o)");
 			fromJXDatePicker.setEnabled(false);
 			fromJXDatePicker.setBounds(new Rectangle(108, 143, 152, 25));
 			fromJXDatePicker.setDate(new Date("01/01/2000"));
@@ -1165,7 +1165,7 @@ public class Client extends JFrame {
 	private JXDatePicker getToJXDatePicker() {
 		if (toJXDatePicker == null) {
 			toJXDatePicker = new JXDatePicker();
-			toJXDatePicker.setToolTipText("(DÌa/Mes/AÒo)");
+			toJXDatePicker.setToolTipText("(D√≠a/Mes/A√±o)");
 			toJXDatePicker.setEnabled(false);
 			toJXDatePicker.setBounds(new Rectangle(108, 185, 152, 25));
 			toJXDatePicker.setDate(new Date());
@@ -1271,20 +1271,20 @@ public class Client extends JFrame {
 		 * 
 		 * } catch (UnsupportedLookAndFeelException e1) { JOptionPane
 		 * .showMessageDialog( null,
-		 * "El estilo seleccionado no es soportado por la aplicaciÛn.",
-		 * "Estilo de la aplicaciÛn", JOptionPane.ERROR_MESSAGE);
+		 * "El estilo seleccionado no es soportado por la aplicaci√≥n.",
+		 * "Estilo de la aplicaci√≥n", JOptionPane.ERROR_MESSAGE);
 		 * e1.printStackTrace(); } catch (ClassNotFoundException e2) {
 		 * JOptionPane .showMessageDialog( null,
-		 * "No se encuentra el estilo especificado para la aplicaciÛn.",
-		 * "Estilo de la aplicaciÛn", JOptionPane.ERROR_MESSAGE);
+		 * "No se encuentra el estilo especificado para la aplicaci√≥n.",
+		 * "Estilo de la aplicaci√≥n", JOptionPane.ERROR_MESSAGE);
 		 * e2.printStackTrace(); } catch (InstantiationException e3) {
 		 * JOptionPane .showMessageDialog( null,
-		 * "Ha ocurrido un error inicializando el estilo especificado para la aplicaciÛn."
-		 * , "Estilo de la aplicaciÛn", JOptionPane.ERROR_MESSAGE);
+		 * "Ha ocurrido un error inicializando el estilo especificado para la aplicaci√≥n."
+		 * , "Estilo de la aplicaci√≥n", JOptionPane.ERROR_MESSAGE);
 		 * e3.printStackTrace(); } catch (IllegalAccessException e4) {
 		 * JOptionPane .showMessageDialog( null,
-		 * "Ha ocurrido un error cargando el estilo especificado para la aplicaciÛn."
-		 * , "Estilo de la aplicaciÛn", JOptionPane.ERROR_MESSAGE);
+		 * "Ha ocurrido un error cargando el estilo especificado para la aplicaci√≥n."
+		 * , "Estilo de la aplicaci√≥n", JOptionPane.ERROR_MESSAGE);
 		 * e4.printStackTrace(); }
 		 */
 		SwingUtilities.invokeLater(new Runnable() {
@@ -1312,7 +1312,7 @@ public class Client extends JFrame {
 					JOptionPane
 							.showMessageDialog(
 									null,
-									"Ha ocurrido un error al cargar los datos de la aplicaciÛn. \n El fichero de configuraciÛn tiene un formato incorrecto o no ha sido encontrado.",
+									"Ha ocurrido un error al cargar los datos de la aplicaci√≥n. \n El fichero de configuraci√≥n tiene un formato incorrecto o no ha sido encontrado.",
 									"Cargando datos", JOptionPane.ERROR_MESSAGE);
 					// deleting the appData file which is with incorrect
 					// format...
@@ -1336,7 +1336,7 @@ public class Client extends JFrame {
 					JOptionPane
 							.showMessageDialog(
 									null,
-									"<html> Ha ocurrido un error determinando el identificador de su m·quina para validar la licencia de la aplicaciÛn. <br> El sistema operativo actual es incompatible. </html>",
+									"<html> Ha ocurrido un error determinando el identificador de su m√°quina para validar la licencia de la aplicaci√≥n. <br> El sistema operativo actual es incompatible. </html>",
 									"SO incompatible",
 									JOptionPane.ERROR_MESSAGE);
 					thisClass.showExpiredLicenseMessage(null,
@@ -1379,7 +1379,7 @@ public class Client extends JFrame {
 						// about to expire
 						JOptionPane.showMessageDialog(null,
 								"Su licencia vence en " + daysToExpire
-										+ " dÌas.", "ActivaciÛn de licencia",
+										+ " d√≠as.", "Activaci√≥n de licencia",
 								JOptionPane.WARNING_MESSAGE);
 
 				}
@@ -1399,7 +1399,7 @@ public class Client extends JFrame {
 					JOptionPane
 							.showMessageDialog(
 									null,
-									"La aplicaciÛn no ha cargado los datos necesarios para funcionar correctamente.\n Por favor, realice una actualizaciÛn.",
+									"La aplicaci√≥n no ha cargado los datos necesarios para funcionar correctamente.\n Por favor, realice una actualizaci√≥n.",
 									"Cargando datos",
 									JOptionPane.WARNING_MESSAGE);
 					return;
@@ -1418,14 +1418,14 @@ public class Client extends JFrame {
 		System.out.println("llamado desde: " + call);
 		String message = null;
 		if (state == null)
-			message = convertToMultiline("La licencia para esta aplicaciÛn est· desactivada.\nPor favor realice una actualizaciÛn que incluya licencia, o realice una activaciÛn.");
+			message = convertToMultiline("La licencia para esta aplicaci√≥n est√° desactivada.\nPor favor realice una actualizaci√≥n que incluya licencia, o realice una activaci√≥n.");
 		else {
 			switch (state) {
 			case expired:
-				message = convertToMultiline("La licencia de esta aplicaciÛn ya ha expirado.\nPor favor realice una actualizaciÛn que incluya licencia, o realice una activaciÛn.");
+				message = convertToMultiline("La licencia de esta aplicaci√≥n ya ha expirado.\nPor favor realice una actualizaci√≥n que incluya licencia, o realice una activaci√≥n.");
 				break;
 			case incorrect:
-				message = convertToMultiline("La licencia que tiene la aplicaciÛn es incorrecta para la instalaciÛn de su m·quina.\nPor favor realice una actualizaciÛn que incluya licencia, o realice una activaciÛn.");
+				message = convertToMultiline("La licencia que tiene la aplicaci√≥n es incorrecta para la instalaci√≥n de su m√°quina.\nPor favor realice una actualizaci√≥n que incluya licencia, o realice una activaci√≥n.");
 				break;
 			default:
 				break;
@@ -1434,7 +1434,7 @@ public class Client extends JFrame {
 
 		int result = JOptionPane.showOptionDialog(
 				null,
-				// convertToMultiline("La licencia para esta aplicaciÛn no ha sido activada, es incorrecta para esta instalaciÛn o ya ha expirado.\nPor favor realice una actualizaciÛn que incluya licencia, o realice una activaciÛn."),
+				// convertToMultiline("La licencia para esta aplicaci√≥n no ha sido activada, es incorrecta para esta instalaci√≥n o ya ha expirado.\nPor favor realice una actualizaci√≥n que incluya licencia, o realice una activaci√≥n."),
 				message, "Licencia desactivada",
 				JOptionPane.YES_NO_CANCEL_OPTION, JOptionPane.ERROR_MESSAGE,
 				null, new Object[] { "Actualizar", "Activar", "Cancelar" },
@@ -1477,7 +1477,7 @@ public class Client extends JFrame {
 						"/citmatel/cu/icons/LOGO-EGRAFIP-(PNG)16.png")));
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		this.setContentPane(getJContentPane());
-		this.setTitle("Finanzas al DÌa. (Cliente 1.0.0)");
+		this.setTitle("Finanzas al D√≠a. (Cliente 1.0.0)");
 
 		this.setResizable(false);
 
